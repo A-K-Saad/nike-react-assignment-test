@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.navbar-brand img{
+    width: 350px;
+}
+header{
+    background: #FFF9F4;
+}
+main{
+    background: #f2f2f9;
+}
+/*=======================
+    Intro Section
+========================*/
+.left-intro img{
+    width: 100%;
+}
+.right-intro h1 span{
+    color: #FA804C;
+}
+.right-intro h1{
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.buy-btn{
+    color: #fff;
+    background: linear-gradient(#3D4FF3, #3543BC);
+    padding: 13px 25px;
+}
+/*=======================
+    Shoe Section
+========================*/
+.shoe-title{
+    color: #363958;
+}
+.shoe-single img{
+    width: 100%;
+    background: #dfdfdf;
+}
+/*=======================
+    Service Section
+========================*/
+.service-single{
+    border-radius: 10px;
+}
+.service-single img{
+    width: 75px;
+    height: 75px;
+}
+/*=======================
+    Media Quiries
+========================*/
+@media only screen and (max-width:668px){
+    .navbar-brand img{
+        width: 235px;
+    }
+    .right-intro h1{
+        font-size: 60px;
+    }
+}
